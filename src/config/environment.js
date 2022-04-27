@@ -1,0 +1,5 @@
+export let API_URL = process.env.REACT_APP_API_URL || "https://api-d.spacetokens.io/spacetokens/v1"
+export let API_KEY = process.env.REACT_APP_API_KEY || "8d9484cccba247f0b4ba051f35357116"
+export let SCAN_URL = process.env.REACT_APP_SCAN_URL || "https://explorer.cardano-testnet.iohkdev.io/en/transaction?id="
+export let GA_SITE_TAG = process.env.REACT_APP_GA_SITE_TAG || ""
+export let FB_SITE_TAG = process.env.REACT_APP_FB_SITE_TAG || ""

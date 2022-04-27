@@ -1,0 +1,179 @@
+.expeditions {
+  color: white;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.expeditions h4 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.expeditions .search-bar {
+  padding: 7px 15px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  max-width: 300px;
+}
+
+.expeditions .search-bar img {
+  margin-right: 10px;
+  height: 18px;
+}
+
+.expeditions .search-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.expeditions .search-bar input {
+  background-color: transparent;
+  border: 0;
+  min-width: 250px;
+  flex: 1;
+  outline: none;
+  color: white;
+}
+
+.expeditions .action-bar {
+  align-items: flex-end;
+}
+
+.expeditions .list-group-item {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgba(41, 52, 100, 0.8);
+  color: #fff7d0;
+}
+
+.expeditions .verticalAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expeditions .start-border {
+  border: solid #666666;
+  border-width: 2px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.expeditions .stats-col {
+  display: flex;
+  flex-direction: column;
+  align-items: 'space-around';
+  justify-content: center;
+}
+
+.expeditions .stats-text {
+  color: #DDDDDD;
+  font-weight: 800;
+}
+
+.expeditions .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.expeditions .complete-text {
+  font-size: 18px;
+}
+
+.divider {
+  border-bottom: 0.1pt;
+  border: 0.5px solid #666666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.expeditions .address-text {
+  color: #DDDDDD;
+}
+
+.expeditions .planet-img {
+  max-width: 240px;
+}
+
+.expeditions .header-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.expeditions .list-group > ul > li {
+  background-color: black;
+  color: red;
+  padding: 100px;
+}
+
+.expeditions > div > ul > div > ul > li {
+  background-color: #fff7d0 !important;
+  color: #666666;
+  padding: 12px;
+  border: 2px solid #fff7d0;
+  border-radius: 8px !important;
+}
+
+.expeditions .dot {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 32px;
+  border: 1px solid #fff7d0;
+  padding: 2px;
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  background-color: #131a3a;
+  z-index: 100;
+}
+
+.expeditions .dot > div {
+  width: 10px;
+  height: 10px;
+  background-color: #fff7d0;
+  border-radius: 30px;
+}
+
+.expeditions .btn-launch {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  min-height: 50px;
+  background-color: #e7c49c;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  color: #0e2279;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+.expeditions .btn-launch:hover{
+  border-color: rgba(255,255,255,1);
+}
+
+@media screen and (max-width: 499px) {
+  .expeditions .btn-launch {
+    position: fixed;
+    bottom: 4%;
+    right: 5%;
+    z-index: 5;
+  }
+}

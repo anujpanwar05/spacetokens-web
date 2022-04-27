@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.spacetokens.io/</loc>
+      <lastmod>2021-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.spacetokens.io/discoveries</loc>
+      <lastmod>2021-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.spacetokens.io/guide</loc>
+      <lastmod>2021-08-03T18:00:15+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+   </url>
+    <url>
+      <loc>https://www.spacetokens.io/expeditions/start</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+</urlset>

@@ -1,0 +1,15 @@
+.logoContainer {
+  letter-spacing: -1px;
+  padding: 5px 0 5px 6px;
+  font-family: "Raleway";
+  font-size: 2em;
+  color: #0E2279;
+  align-items: center;
+  justify-content: center;
+}
+.api {
+  background-color: #0E2279;
+  color:white;
+  margin: 0 3px 0 8px;
+  padding: 0 8px;
+}

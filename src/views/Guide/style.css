@@ -1,0 +1,94 @@
+/* .guide {
+  color: white;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+} */
+
+.guide {
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+.guide-title {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 2.75em;
+  color: #0E2279;
+}
+.guide-description {
+  font-family: "Raleway";
+  font-size: 1.25em;
+  margin-bottom: 50px;
+}
+
+.guide-sub-header {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.how-to-bg {
+  border: solid #000;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: #FFFFFF;
+}
+
+.how-to-title {
+  font-family: "Raleway";
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6px;
+  color: #0E2279;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-bottom: solid #E7C49C;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.how-to-body {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  color: #0E2279;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+
+.faqContainer {
+  margin-top: 200px;
+}
+
+.faq-header {
+  margin-top: 65px;
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 1.75em;
+  color: #0E2279;
+}
+
+.faq-row-wrapper {
+  /* padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px; */
+  padding: 20px;
+  margin-bottom: 10px;
+  border: solid #000;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: #FFFFFF;
+}

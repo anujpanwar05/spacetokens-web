@@ -1,0 +1,42 @@
+.nav-right {
+  justify-content: flex-end;
+}
+
+.btns-right {
+  align-self: flex-end;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-link {
+  color: #121214;
+}
+
+.nav-link.active {
+  color: #0e2279 !important;
+  font-weight: 800;
+}
+
+.ml-30 {
+  margin-left: 13px;
+}
+
+.btn-secondary {
+  background-color: #e7c49c;
+  color: #0e2279;
+  font-weight: 700;
+  border: 0;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  background-color: #e7be8e !important;
+  color: #0e2279 !important;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}

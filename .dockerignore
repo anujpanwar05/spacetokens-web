@@ -1,0 +1,4 @@
+Dockerfile
+.cache/
+node_modules/
+devops/

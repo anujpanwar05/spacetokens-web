@@ -1,0 +1,43 @@
+.footer {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.footer p {
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .footer p {
+    color: white;
+    margin-bottom: 0;
+    text-align: right;
+  }
+}
+
+.social-img {
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+}
+
+.footer .row-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.footer-col {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

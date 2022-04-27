@@ -1,0 +1,62 @@
+.planet-class {
+  margin-bottom: 30px;
+  min-width: 20%;
+  background-color: rgba(41, 52, 100, 0.8);
+  padding: 20px 50px 40px 50px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.selected-class {
+  border: solid #fff7d0;
+  padding: 30px 50px 40px 50px;
+  border-width: 3px;
+}
+
+.planet-class h4 {
+  font-weight: 800;
+  color: #fff7d0;
+}
+
+.planet-class p {
+  color: #dddddd;
+}
+
+.address-link {
+  color: #fff7d0;
+  text-decoration:none;
+}
+
+.planet-label {
+  color: #fff7d0;
+  font-weight: 600;
+}
+
+.planet-attribute {
+  color: white
+}
+
+.center-text {
+  text-align: center;
+  color: white;
+}
+
+.sold-out-overlay {
+  position: absolute;
+  display: block;
+  border-radius: 12px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 2;
+}
+
+.sold-out-text {
+  font-size: 30px;
+  color: #fff7d0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}

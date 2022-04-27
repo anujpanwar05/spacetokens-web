@@ -1,0 +1,40 @@
+.btn-share {
+  background-color: #ecd4b8;
+  color: #0e2279;
+  font-weight: 700;
+  border: 0;
+  padding: 10px 26px;
+  border-radius: 5px;
+  margin: 14px;
+  margin-top: 24px;
+}
+
+.share-title {
+  color:white;
+  font-weight: 700;
+  font-family: 'Raleway';
+}
+
+.btn-share-type {
+  margin: 4px;
+}
+
+.btn-share-url {
+  background-color: white;
+  color: #102479;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-share-url:hover {
+  background-color: #dfdfdf;
+}
+
+.share-link {
+  color: 'white';
+}

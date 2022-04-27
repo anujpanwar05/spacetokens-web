@@ -1,0 +1,74 @@
+.discovery {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.discovery .title {
+  font-weight: 800;
+  align-items: center;
+  color:white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.discovery h5 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.discovery h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.discovery .tagline {
+  font-size: 0.9em;
+  color:#e7c49c;
+}
+
+.discovery h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #e7c49c;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+/* .discovery span {
+  padding: 0 30px;
+} */
+
+.discovery table tr td p {
+  display: inline;
+}
+
+.discovery td {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.discovery table tr td:nth-child(1) {
+  color: #fff7d0;
+  font-weight: 600;
+}
+
+.discovery .logo-character {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  max-width: 80%;
+}
+
+
+.discovery .logo {
+  text-align: center;
+  margin-top: 10px;
+  height: 200;
+  max-width: 500px;
+}

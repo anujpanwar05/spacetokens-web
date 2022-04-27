@@ -1,0 +1,53 @@
+.discovery-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(41, 52, 100, 0.8);
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.discovery-card h2 {
+  font-weight: 800;
+  color: #fff7d0;
+}
+
+.discovery-card img {
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+}
+
+.discovery-card p {
+  color: #dddddd;
+}
+
+.address-link {
+  color: #fff7d0;
+  text-decoration:none;
+}
+
+.discovery-label {
+  color: #fff7d0;
+  font-weight: 600;
+  text-align: right;
+}
+
+.discovery-attribute {
+  color: white;
+  text-align: left;
+}
+
+.discovery-card .link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.discovery-card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,29 @@
+.progress-bar-container {
+  width: 100%;
+}
+
+.progress-bar-container .labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.progress-bar-container .labels p {
+  margin-bottom: 5px;
+}
+
+.progress-bar-container .progress-container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.progress-bar-container .progress-container > div {
+  background-color: #e7c49c;
+  height: 37px;
+  border-radius: 5px;
+}
